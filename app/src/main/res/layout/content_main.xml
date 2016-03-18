@@ -35,74 +35,45 @@
 
         <Button
             android:id="@+id/buttonSpotify"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:width="205dp"
             android:text="@string/spotify"
             android:onClick="displayToast"
-            android:textColor="@color/colorAccent"
-            android:background="@color/colorPrimary"
-            android:layout_margin="5dp" />
+            style="@style/appButton"
+            />
 
         <Button
             android:id="@+id/buttonScore"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:width="205dp"
             android:text="@string/score"
             android:onClick="displayToast"
-            android:textColor="@color/colorAccent"
-            android:background="@color/colorPrimary"
-            android:layout_margin="5dp" />
+            style="@style/appButton"
+            />
 
         <Button
             android:id="@+id/buttonLibrary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:width="205dp"
             android:text="@string/library"
             android:onClick="displayToast"
-            android:textColor="@color/colorAccent"
-            android:background="@color/colorPrimary"
-            android:layout_margin="5dp" />
+            style="@style/appButton"
+            />
 
         <Button
             android:id="@+id/buttonBigger"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:width="205dp"
             android:text="@string/bigger"
             android:onClick="displayToast"
-            android:textColor="@color/colorAccent"
-            android:background="@color/colorPrimary"
-            android:layout_margin="5dp" />
+            style="@style/appButton"
+            />
 
         <Button
             android:id="@+id/buttonReader"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:width="205dp"
             android:text="@string/reader"
             android:onClick="displayToast"
-            android:textColor="@color/colorAccent"
-            android:background="@color/colorPrimary"
-            android:layout_margin="5dp" />
+            style="@style/appButton"
+            />
 
         <Button
             android:id="@+id/buttonCapstone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/capstone"
             android:onClick="displayToast"
-            android:textColor="@color/colorText"
-            android:background="@color/colorPrimary"
-            android:layout_margin="5dp" />
+            style="@style/capButton"
+            />
 
     </LinearLayout>
 </ScrollView>
